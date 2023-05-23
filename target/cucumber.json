@@ -1,0 +1,572 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4394114300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6573829400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have clicked on Login Link",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_clicked_on_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T08:25:27.082Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3716963100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate the Login failure scenario",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-simplilearn-application;validate-the-login-failure-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 451280000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 307825000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter username",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 366792300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter password",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 492134500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I clck on Login button",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_clck_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".error_msg\"}\n  (Session info: chrome\u003d113.0.5672.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-D84TOFF\u0027, ip: \u0027192.168.29.249\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\Prave\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64853}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 23459519c7dc39f65e6868e28fe318d3\n*** Element info: {Using\u003dclass name, value\u003derror_msg}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepdefs.LoginStepDef.i_should_get_the_error_message(LoginStepDef.java:67)\r\n\tat ✽.I should get the error message(file:///C:/Users/Prave/Desktop/AutomationTesting/CucumberProject/src/test/java/features/Login.feature:22)\r\n",
+              "duration": 1692955900,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "I should get the error message",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_should_get_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4594758200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6506666800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have clicked on Login Link",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_clicked_on_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T08:25:45.279Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1685581400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Validate the Login failure scenario using parameters",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-simplilearn-application;validate-the-login-failure-scenario-using-parameters",
+        "after": [
+          {
+            "result": {
+              "duration": 967866900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 284836200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter username as \"abc@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@xyz.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184908000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter password as \"Abc@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abc@1234\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3264330700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I clck on Login button",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_clck_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149914100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should get the error message as \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5172173200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6175816600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have clicked on Login Link",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_clicked_on_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T08:26:02.945Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1620986000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Validate the Login failure scenario using parameters",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-simplilearn-application;validate-the-login-failure-scenario-using-parameters;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 571674500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 405767900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter username as \"Shivakmr755@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shivakmr755@gmail.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174899800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter password as \"Shiveena1705\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shiveena1705\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4923810400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I clck on Login button",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_clck_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60286600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should get the error message as \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4667434200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6995036200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have clicked on Login Link",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_clicked_on_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T08:26:22.085Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1721722000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Validate the Login failure scenario using parameters",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-simplilearn-application;validate-the-login-failure-scenario-using-parameters;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 496714600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 378784800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter username as \"veenajannu@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"veenajannu@gmail.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179898800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter password as \"Veena315\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veena315\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 490790400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I clck on Login button",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_clck_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".error_msg\"}\n  (Session info: chrome\u003d113.0.5672.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-D84TOFF\u0027, ip: \u0027192.168.29.249\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\Prave\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5f714481a931d51d6b01da58b33ac31e\n*** Element info: {Using\u003dclass name, value\u003derror_msg}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepdefs.LoginStepDef.i_should_get_the_error_message_as(LoginStepDef.java:94)\r\n\tat ✽.I should get the error message as \"The email or password you have entered is invalid.\"(file:///C:/Users/Prave/Desktop/AutomationTesting/CucumberProject/src/test/java/features/Login.feature:38)\r\n",
+              "duration": 1700185500,
+              "status": "failed"
+            },
+            "line": 38,
+            "name": "I should get the error message as \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to test the login functionality of Simplilearn application",
+    "description": "",
+    "id": "this-feature-will-be-used-to-test-the-login-functionality-of-simplilearn-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Browser",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
